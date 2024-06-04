@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1022286605346",
+    "project_id": "books-app-1c683",
+    "storage_bucket": "books-app-1c683.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022286605346:android:0956f31bd8e50f92f4ae7b",
+        "android_client_info": {
+          "package_name": "com.taha.books_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsrLUjwZ_8m9AoeaaBMFI0iIkAfh6fcd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022286605346:android:78a89a3770d71092f4ae7b",
+        "android_client_info": {
+          "package_name": "com.taha.books_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsrLUjwZ_8m9AoeaaBMFI0iIkAfh6fcd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

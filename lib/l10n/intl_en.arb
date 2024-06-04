@@ -1,0 +1,32 @@
+{
+    "app_name": "Booky",
+
+    "onboarding_title1": "Welcome to Your Infinite Library",
+    "onboarding_sub_title1": "Discover, read, and enjoy a vast collection of eBooks.",
+    "onboarding_title2": "Find Your Favorite Books with Ease",
+    "onboarding_sub_title2": "Browse by genre, author, or use our advanced search feature.",
+    "onboarding_title3": "Start Your Reading Journey Now",
+    "onboarding_sub_title3": "Join and start exploring an amazing world of books.",
+    
+    "login":"Login",
+    "register":"Register",
+    "email":"Email address",
+    "email_hint":"Your email",
+    "password":"Password",
+    "password_hint":"********",
+    "other_sign_in_options":"Other sign in options",
+
+    "hi":"Hi",
+    "home_title":"What will you read today?",
+    "your_books":"Your Books",
+    "see_all":"See All",
+
+    "search":"Search",
+    "recent_searches":"Recent Searches",
+    "free_ebooks":"Free ebooks",
+    "paid-ebooks":"Paid ebooks",
+
+    "my_books":"My Books",
+
+    "about_the_book":"About The Book"
+}
