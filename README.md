@@ -1,16 +1,7 @@
-# books_app
+# Booky - Books app
 
-A new Flutter Books App.
 
-## Getting Started
+## 🎨   System Design
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![booky_app_architecture_pattern](https://github.com/taha-128/Booky/assets/108621978/573fd380-a315-4890-ad14-4fca7bcfb3d3)
