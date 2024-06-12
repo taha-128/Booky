@@ -1,7 +1,12 @@
+import 'package:books_app/core/di/dependency_injection.dart';
+import 'package:books_app/core/helpers/cache_helper.dart';
 import 'package:books_app/core/theme/app_images.dart';
+import 'package:books_app/features/auth/ui/auth_screen.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import '../../home/ui/home_screen.dart';
 import '../../onboarding/ui/onboarding_screen.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -34,9 +39,20 @@ class _SplashScreenState extends State<SplashScreen> {
               );
             },
             transitionDuration: const Duration(seconds: 2),
-            pageBuilder: (BuildContext context, Animation<double> animation,
-                Animation<double> secondaryAnimation) {
-              return const OnboardingScreen();
+            pageBuilder: (
+              BuildContext context,
+              Animation<double> animation,
+              Animation<double> secondaryAnimation,
+            ) {
+              if (getIt.get<FirebaseAuth>().currentUser != null) {
+                return const HomeScreen();
+              } else {
+                if (getIt.get<CacheHelper>().isFirstOpen()) {
+                  return const OnboardingScreen();
+                } else {
+                  return const AuthScreen();
+                }
+              }
             },
           ),
         );
@@ -51,7 +67,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
     return Scaffold(
       body: Center(
-        child: Image.asset(AppImages.logo), // Your logo asset here
+        child: Image.asset(AppImages.logo),
       ),
     );
   }

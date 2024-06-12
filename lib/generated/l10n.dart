@@ -121,6 +121,36 @@ class S {
   }
 
   /// `Login`
+  String get submit_button {
+    return Intl.message(
+      'Login',
+      name: 'submit_button',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Skip`
+  String get skip {
+    return Intl.message(
+      'Skip',
+      name: 'skip',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Join`
+  String get finish_button {
+    return Intl.message(
+      'Join',
+      name: 'finish_button',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Login`
   String get login {
     return Intl.message(
       'Login',

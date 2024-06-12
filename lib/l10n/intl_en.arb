@@ -7,7 +7,10 @@
     "onboarding_sub_title2": "Browse by genre, author, or use our advanced search feature.",
     "onboarding_title3": "Start Your Reading Journey Now",
     "onboarding_sub_title3": "Join and start exploring an amazing world of books.",
-    
+    "submit_button": "Login",
+    "skip": "Skip",
+    "finish_button": "Join",
+
     "login":"Login",
     "register":"Register",
     "email":"Email address",

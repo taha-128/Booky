@@ -14,6 +14,9 @@ dependencies:
   #Networking
   dio: ^5.4.3+1
 
+  #A Flutter package to use fonts from fonts.google.com.
+  google_fonts: ^6.2.1
+
   #Flutter plugin for Firebase Core, enabling connecting to multiple Firebase apps
   firebase_core: ^2.32.0
 

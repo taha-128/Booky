@@ -26,6 +26,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "app_name": MessageLookupByLibrary.simpleMessage("Booky"),
         "email": MessageLookupByLibrary.simpleMessage("البريد الالكتروني"),
         "email_hint": MessageLookupByLibrary.simpleMessage("بريدك الالكتروني"),
+        "finish_button": MessageLookupByLibrary.simpleMessage("انضم إلينا"),
         "free_ebooks": MessageLookupByLibrary.simpleMessage("الكتب المجانيّة"),
         "hi": MessageLookupByLibrary.simpleMessage("مرحبًا"),
         "home_title":
@@ -38,8 +39,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "تصفح حسب النوع، المؤلف، أو استخدم خاصية البحث المتقدم."),
         "onboarding_sub_title3": MessageLookupByLibrary.simpleMessage(
             "سجّل الدخول وابدأ في استكشاف عالم الكتب المذهل."),
-        "onboarding_title1": MessageLookupByLibrary.simpleMessage(
-            "مرحباً بك في عالم القراءة اللامتناهي"),
+        "onboarding_title1":
+            MessageLookupByLibrary.simpleMessage("مرحباً بك في عالم القراءة"),
         "onboarding_title2":
             MessageLookupByLibrary.simpleMessage("ابحث عن كتبك المفضلة بسهولة"),
         "onboarding_title3":
@@ -53,6 +54,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "register": MessageLookupByLibrary.simpleMessage("انشاء حساب"),
         "search": MessageLookupByLibrary.simpleMessage("ابحث"),
         "see_all": MessageLookupByLibrary.simpleMessage("اعرض الكل"),
+        "skip": MessageLookupByLibrary.simpleMessage("تخطي"),
+        "submit_button": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "your_books": MessageLookupByLibrary.simpleMessage("كُتبك")
       };
 }
