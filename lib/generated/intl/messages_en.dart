@@ -27,6 +27,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "app_name": MessageLookupByLibrary.simpleMessage("Booky"),
         "email": MessageLookupByLibrary.simpleMessage("Email address"),
         "email_hint": MessageLookupByLibrary.simpleMessage("Your email"),
+        "finish_button": MessageLookupByLibrary.simpleMessage("Join"),
         "free_ebooks": MessageLookupByLibrary.simpleMessage("Free ebooks"),
         "hi": MessageLookupByLibrary.simpleMessage("Hi"),
         "home_title":
@@ -54,6 +55,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "register": MessageLookupByLibrary.simpleMessage("Register"),
         "search": MessageLookupByLibrary.simpleMessage("Search"),
         "see_all": MessageLookupByLibrary.simpleMessage("See All"),
+        "skip": MessageLookupByLibrary.simpleMessage("Skip"),
+        "submit_button": MessageLookupByLibrary.simpleMessage("Login"),
         "your_books": MessageLookupByLibrary.simpleMessage("Your Books")
       };
 }
