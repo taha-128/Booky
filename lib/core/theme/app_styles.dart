@@ -19,4 +19,10 @@ class AppStyles {
     fontSize: 28.sp,
     fontWeight: FontWeight.w600,
   );
+
+  static final style32 = GoogleFonts.cairo(
+    fontSize: 32.sp,
+    fontWeight: FontWeight.bold,
+    color: AppColors.black,
+  );
 }
