@@ -34,7 +34,7 @@ class CustomTextField extends StatelessWidget {
           builder: (context, state) {
             return TextFormField(
               obscureText: isPassword
-                  ? context.read<ShowPasswordCubit>().isShowed
+                  ? context.read<ShowPasswordCubit>().unShowed
                   : false,
               validator: validator,
               controller: controller,
@@ -50,7 +50,7 @@ class CustomTextField extends StatelessWidget {
                 ),
                 suffixIcon: isPassword
                     ? ShowPasswordButton(
-                        icon: context.read<ShowPasswordCubit>().isShowed
+                        icon: context.read<ShowPasswordCubit>().unShowed
                             ? AppSvgs.eyeOff
                             : AppSvgs.eye,
                       )

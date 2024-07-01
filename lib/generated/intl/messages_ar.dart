@@ -33,6 +33,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("ماذا سوف تقرأ اليوم؟"),
         "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "my_books": MessageLookupByLibrary.simpleMessage("كُتبي"),
+        "name": MessageLookupByLibrary.simpleMessage("الاسم"),
+        "name_hint": MessageLookupByLibrary.simpleMessage("طه حسن"),
         "onboarding_sub_title1": MessageLookupByLibrary.simpleMessage(
             "اكتشف، اقرأ، واستمتع بمجموعة واسعة من الكتب الإلكترونية."),
         "onboarding_sub_title2": MessageLookupByLibrary.simpleMessage(

@@ -170,6 +170,26 @@ class S {
     );
   }
 
+  /// `name`
+  String get name {
+    return Intl.message(
+      'name',
+      name: 'name',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Taha Hassan`
+  String get name_hint {
+    return Intl.message(
+      'Taha Hassan',
+      name: 'name_hint',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Email address`
   String get email {
     return Intl.message(

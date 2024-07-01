@@ -8,6 +8,6 @@ class AuthTypeBarCubit extends Cubit<AuthTypeBarState> {
   AuthType authType = AuthType.login;
   void changeAuthType(AuthType authType) {
     this.authType = authType;
-    emit(AuthTypeBarChanged());
+    emit(AuthTypeBarChanged(type: authType));
   }
 }

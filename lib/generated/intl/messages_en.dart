@@ -34,6 +34,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("What will you read today?"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "my_books": MessageLookupByLibrary.simpleMessage("My Books"),
+        "name": MessageLookupByLibrary.simpleMessage("name"),
+        "name_hint": MessageLookupByLibrary.simpleMessage("Taha Hassan"),
         "onboarding_sub_title1": MessageLookupByLibrary.simpleMessage(
             "Discover, read, and enjoy a vast collection of eBooks."),
         "onboarding_sub_title2": MessageLookupByLibrary.simpleMessage(

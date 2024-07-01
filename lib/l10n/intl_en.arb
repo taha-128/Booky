@@ -13,6 +13,8 @@
 
     "login":"Login",
     "register":"Register",
+    "name":"name",
+    "name_hint":"Taha Hassan",
     "email":"Email address",
     "email_hint":"Your email",
     "password":"Password",

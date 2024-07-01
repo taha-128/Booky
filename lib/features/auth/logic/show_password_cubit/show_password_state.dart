@@ -5,7 +5,4 @@ sealed class ShowPasswordState {}
 final class ShowPasswordInitial extends ShowPasswordState {}
 
 final class ShowPasswordIconChanged extends ShowPasswordState {
-  final String icon;
-
-  ShowPasswordIconChanged({required this.icon});
 }
