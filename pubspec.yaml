@@ -45,6 +45,12 @@ dependencies:
   #Dependency injection
   get_it: ^7.7.0
 
+  #An SVG rendering and widget library for Flutter
+  flutter_svg: ^2.0.10+1
+
+  #Zoom Tap Animation allows you to make an effect similar to App Store's items in Today tab
+  zoom_tap_animation: ^1.1.0
+
   #Localization
   intl: ^0.19.0
   flutter_localizations:
