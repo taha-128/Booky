@@ -21,5 +21,5 @@ void main() async {
 
   Bloc.observer = CustomBlocObserver();
 
-  runApp(const BooksApp());
+  runApp(const BookyApp());
 }

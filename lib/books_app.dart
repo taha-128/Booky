@@ -4,8 +4,8 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'generated/l10n.dart';
 
-class BooksApp extends StatelessWidget {
-  const BooksApp({super.key});
+class BookyApp extends StatelessWidget {
+  const BookyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
