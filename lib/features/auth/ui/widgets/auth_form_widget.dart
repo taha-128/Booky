@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../logic/auth_type_bar_cubit/auth_type_bar_cubit.dart';
+import '../auth_screen.dart';
 
 class AuthForm extends StatelessWidget {
   const AuthForm({super.key});

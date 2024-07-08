@@ -1,5 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../../ui/auth_screen.dart';
+
 part 'auth_type_bar_state.dart';
 
 class AuthTypeBarCubit extends Cubit<AuthTypeBarState> {

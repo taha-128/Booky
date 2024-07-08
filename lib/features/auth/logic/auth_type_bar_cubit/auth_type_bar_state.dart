@@ -1,6 +1,5 @@
 part of 'auth_type_bar_cubit.dart';
 
-enum AuthType { register, login }
 
 sealed class AuthTypeBarState {}
 

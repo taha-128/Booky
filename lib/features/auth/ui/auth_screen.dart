@@ -6,6 +6,8 @@ import '../logic/auth_type_bar_cubit/auth_type_bar_cubit.dart';
 
 import 'widgets/auth_screen_body.dart';
 
+enum AuthType { register, login }
+
 class AuthScreen extends StatelessWidget {
   const AuthScreen({super.key});
 
@@ -16,7 +18,10 @@ class AuthScreen extends StatelessWidget {
         BlocProvider(create: (_) => AuthTypeBarCubit()),
         BlocProvider(create: (_) => AuthCubit()),
       ],
-      child: const AuthScreenBody(),
+      child: const Scaffold(
+        resizeToAvoidBottomInset: false,
+        body: AuthScreenBody(),
+      ),
     );
   }
 }

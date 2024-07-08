@@ -13,6 +13,9 @@ dependencies:
 
   #Networking
   dio: ^5.4.3+1
+  
+  #A package that provides custom floating snackbar for your project.
+  floating_snackbar: ^1.0.5
 
   #A Flutter package to use fonts from fonts.google.com.
   google_fonts: ^6.2.1
@@ -50,6 +53,9 @@ dependencies:
 
   #Zoom Tap Animation allows you to make an effect similar to App Store's items in Today tab
   zoom_tap_animation: ^1.1.0
+
+  #Beautiful animated effects
+  flutter_animate: ^4.5.0
 
   #Localization
   intl: ^0.19.0

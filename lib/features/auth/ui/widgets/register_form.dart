@@ -1,9 +1,12 @@
+import 'package:books_app/features/auth/ui/auth_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../generated/l10n.dart';
 import '../../logic/auth_cubit/auth_cubit.dart';
+import 'auth_button.dart';
 import 'custom_text_field.dart';
 
 class RegisterForm extends StatelessWidget {
@@ -12,7 +15,7 @@ class RegisterForm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Form(
-      key: context.read<AuthCubit>().formKey,
+      key: context.read<AuthCubit>().registerFormKey,
       autovalidateMode: context.read<AuthCubit>().autoValidateMode,
       child: Column(
         children: [
@@ -34,7 +37,9 @@ class RegisterForm extends StatelessWidget {
             hintText: S.of(context).password_hint,
             isPassword: true,
           ),
-        ],
+          SizedBox(height: 50.h),
+          const AuthButton(authType: AuthType.register),
+        ].animate().scaleY(),
       ),
     );
   }
