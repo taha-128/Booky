@@ -1,4 +1,3 @@
-
 import 'package:books_app/features/auth/ui/auth_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
@@ -24,6 +23,13 @@ class LoginForm extends StatelessWidget {
             controller: context.read<AuthCubit>().loginEmailController,
             labelText: S.of(context).email,
             hintText: S.of(context).email_hint,
+            validator: (val) {
+              if (val!.isEmpty) {
+                return S.current.email_error;
+              } else {
+                return null;
+              }
+            },
           ),
           SizedBox(height: 24.h),
           CustomTextField(
@@ -31,6 +37,13 @@ class LoginForm extends StatelessWidget {
             labelText: S.of(context).password,
             hintText: S.of(context).password_hint,
             isPassword: true,
+            validator: (val) {
+              if (val!.isEmpty) {
+                return S.current.password_error;
+              } else {
+                return null;
+              }
+            },
           ),
           SizedBox(height: 50.h),
           const AuthButton(authType: AuthType.login),
