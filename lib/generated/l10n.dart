@@ -170,10 +170,10 @@ class S {
     );
   }
 
-  /// `name`
+  /// `Name`
   String get name {
     return Intl.message(
-      'name',
+      'Name',
       name: 'name',
       desc: '',
       args: [],
@@ -310,7 +310,15 @@ class S {
     );
   }
 
-  // skipped getter for the 'paid-ebooks' key
+  /// `Paid ebooks`
+  String get paid_ebooks {
+    return Intl.message(
+      'Paid ebooks',
+      name: 'paid_ebooks',
+      desc: '',
+      args: [],
+    );
+  }
 
   /// `My Books`
   String get my_books {
@@ -327,6 +335,76 @@ class S {
     return Intl.message(
       'About The Book',
       name: 'about_the_book',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `There is an error`
+  String get there_is_error {
+    return Intl.message(
+      'There is an error',
+      name: 'there_is_error',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `User not found`
+  String get user_not_found {
+    return Intl.message(
+      'User not found',
+      name: 'user_not_found',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `ًWrong password`
+  String get wrong_password {
+    return Intl.message(
+      'ًWrong password',
+      name: 'wrong_password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Invalid email`
+  String get invalid_email {
+    return Intl.message(
+      'Invalid email',
+      name: 'invalid_email',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Weak password`
+  String get weak_password {
+    return Intl.message(
+      'Weak password',
+      name: 'weak_password',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `This email already in use`
+  String get email_already_in_use {
+    return Intl.message(
+      'This email already in use',
+      name: 'email_already_in_use',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `The email or password are incorrect`
+  String get invalid_credential {
+    return Intl.message(
+      'The email or password are incorrect',
+      name: 'invalid_credential',
       desc: '',
       args: [],
     );

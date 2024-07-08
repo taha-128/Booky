@@ -1,6 +1,5 @@
 {
     "app_name": "Booky",
-
     "onboarding_title1": "Welcome to Your Infinite Library",
     "onboarding_sub_title1": "Discover, read, and enjoy a vast collection of eBooks.",
     "onboarding_title2": "Find Your Favorite Books with Ease",
@@ -10,28 +9,30 @@
     "submit_button": "Login",
     "skip": "Skip",
     "finish_button": "Join",
-
-    "login":"Login",
-    "register":"Register",
-    "name":"name",
-    "name_hint":"Taha Hassan",
-    "email":"Email address",
-    "email_hint":"Your email",
-    "password":"Password",
-    "password_hint":"********",
-    "other_sign_in_options":"Other sign in options",
-
-    "hi":"Hi",
-    "home_title":"What will you read today?",
-    "your_books":"Your Books",
-    "see_all":"See All",
-
-    "search":"Search",
-    "recent_searches":"Recent Searches",
-    "free_ebooks":"Free ebooks",
-    "paid-ebooks":"Paid ebooks",
-
-    "my_books":"My Books",
-
-    "about_the_book":"About The Book"
+    "login": "Login",
+    "register": "Register",
+    "name": "Name",
+    "name_hint": "Taha Hassan",
+    "email": "Email address",
+    "email_hint": "Your email",
+    "password": "Password",
+    "password_hint": "********",
+    "other_sign_in_options": "Other sign in options",
+    "hi": "Hi",
+    "home_title": "What will you read today?",
+    "your_books": "Your Books",
+    "see_all": "See All",
+    "search": "Search",
+    "recent_searches": "Recent Searches",
+    "free_ebooks": "Free ebooks",
+    "paid_ebooks": "Paid ebooks",
+    "my_books": "My Books",
+    "about_the_book": "About The Book",
+    "there_is_error": "There is an error",
+    "user_not_found": "User not found",
+    "wrong_password": "ًWrong password",
+    "invalid_email": "Invalid email",
+    "weak_password": "Weak password",
+    "email_already_in_use": "This email already in use",
+    "invalid_credential": "The email or password are incorrect"
 }

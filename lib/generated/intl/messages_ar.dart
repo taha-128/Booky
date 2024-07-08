@@ -25,12 +25,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "about_the_book": MessageLookupByLibrary.simpleMessage("وصف الكتاب"),
         "app_name": MessageLookupByLibrary.simpleMessage("Booky"),
         "email": MessageLookupByLibrary.simpleMessage("البريد الالكتروني"),
+        "email_already_in_use":
+            MessageLookupByLibrary.simpleMessage("هذا البريد مُستخدم بالفعل"),
         "email_hint": MessageLookupByLibrary.simpleMessage("بريدك الالكتروني"),
         "finish_button": MessageLookupByLibrary.simpleMessage("انضم إلينا"),
         "free_ebooks": MessageLookupByLibrary.simpleMessage("الكتب المجانيّة"),
         "hi": MessageLookupByLibrary.simpleMessage("مرحبًا"),
         "home_title":
             MessageLookupByLibrary.simpleMessage("ماذا سوف تقرأ اليوم؟"),
+        "invalid_credential": MessageLookupByLibrary.simpleMessage(
+            "االرقم السري أو البريد غير صحيح"),
+        "invalid_email":
+            MessageLookupByLibrary.simpleMessage("البريد الالكتروني غير صالح"),
         "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "my_books": MessageLookupByLibrary.simpleMessage("كُتبي"),
         "name": MessageLookupByLibrary.simpleMessage("الاسم"),
@@ -49,6 +55,7 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("ابدأ رحلتك القرائية الآن"),
         "other_sign_in_options":
             MessageLookupByLibrary.simpleMessage("طرق تسجيل دخول أخرى"),
+        "paid_ebooks": MessageLookupByLibrary.simpleMessage("الكتب المدفوعَة"),
         "password": MessageLookupByLibrary.simpleMessage("الرقم السري"),
         "password_hint": MessageLookupByLibrary.simpleMessage("********"),
         "recent_searches":
@@ -58,6 +65,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "see_all": MessageLookupByLibrary.simpleMessage("اعرض الكل"),
         "skip": MessageLookupByLibrary.simpleMessage("تخطي"),
         "submit_button": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
+        "there_is_error": MessageLookupByLibrary.simpleMessage("هناك خطأ ما"),
+        "user_not_found": MessageLookupByLibrary.simpleMessage(
+            "لا يوجد مستخدم بهذه البيانات"),
+        "weak_password":
+            MessageLookupByLibrary.simpleMessage("الرقم السري ضعيف"),
+        "wrong_password":
+            MessageLookupByLibrary.simpleMessage("الرقم السري غير صحيح"),
         "your_books": MessageLookupByLibrary.simpleMessage("كُتبك")
       };
 }
