@@ -28,6 +28,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "email": MessageLookupByLibrary.simpleMessage("Email address"),
         "email_already_in_use":
             MessageLookupByLibrary.simpleMessage("This email already in use"),
+        "email_error": MessageLookupByLibrary.simpleMessage("Enter your email"),
         "email_hint": MessageLookupByLibrary.simpleMessage("Your email"),
         "finish_button": MessageLookupByLibrary.simpleMessage("Join"),
         "free_ebooks": MessageLookupByLibrary.simpleMessage("Free ebooks"),
@@ -40,6 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "my_books": MessageLookupByLibrary.simpleMessage("My Books"),
         "name": MessageLookupByLibrary.simpleMessage("Name"),
+        "name_error": MessageLookupByLibrary.simpleMessage("Enter your name"),
         "name_hint": MessageLookupByLibrary.simpleMessage("Taha Hassan"),
         "onboarding_sub_title1": MessageLookupByLibrary.simpleMessage(
             "Discover, read, and enjoy a vast collection of eBooks."),
@@ -57,6 +59,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Other sign in options"),
         "paid_ebooks": MessageLookupByLibrary.simpleMessage("Paid ebooks"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
+        "password_error":
+            MessageLookupByLibrary.simpleMessage("Enter your password"),
         "password_hint": MessageLookupByLibrary.simpleMessage("********"),
         "recent_searches":
             MessageLookupByLibrary.simpleMessage("Recent Searches"),

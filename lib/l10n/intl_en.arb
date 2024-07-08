@@ -34,5 +34,8 @@
     "invalid_email": "Invalid email",
     "weak_password": "Weak password",
     "email_already_in_use": "This email already in use",
-    "invalid_credential": "The email or password are incorrect"
+    "invalid_credential": "The email or password are incorrect",
+    "email_error": "Enter your email",
+    "name_error": "Enter your name",
+    "password_error": "Enter your password"
 }

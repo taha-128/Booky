@@ -23,12 +23,26 @@ class RegisterForm extends StatelessWidget {
             controller: context.read<AuthCubit>().nameController,
             labelText: S.of(context).name,
             hintText: S.of(context).name_hint,
+            validator: (val) {
+              if (val!.isEmpty) {
+                return S.current.name_error;
+              } else {
+                return null;
+              }
+            },
           ),
           SizedBox(height: 24.h),
           CustomTextField(
             controller: context.read<AuthCubit>().registerEmailController,
             labelText: S.of(context).email,
             hintText: S.of(context).email_hint,
+            validator: (val) {
+              if (val!.isEmpty) {
+                return S.current.email_error;
+              } else {
+                return null;
+              }
+            },
           ),
           SizedBox(height: 24.h),
           CustomTextField(
@@ -36,6 +50,13 @@ class RegisterForm extends StatelessWidget {
             labelText: S.of(context).password,
             hintText: S.of(context).password_hint,
             isPassword: true,
+            validator: (val) {
+              if (val!.isEmpty) {
+                return S.current.password_error;
+              } else {
+                return null;
+              }
+            },
           ),
           SizedBox(height: 50.h),
           const AuthButton(authType: AuthType.register),

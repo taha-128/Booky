@@ -27,6 +27,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "email": MessageLookupByLibrary.simpleMessage("البريد الالكتروني"),
         "email_already_in_use":
             MessageLookupByLibrary.simpleMessage("هذا البريد مُستخدم بالفعل"),
+        "email_error": MessageLookupByLibrary.simpleMessage(
+            "يرجى كتابة البريد الالكتروني"),
         "email_hint": MessageLookupByLibrary.simpleMessage("بريدك الالكتروني"),
         "finish_button": MessageLookupByLibrary.simpleMessage("انضم إلينا"),
         "free_ebooks": MessageLookupByLibrary.simpleMessage("الكتب المجانيّة"),
@@ -40,6 +42,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
         "my_books": MessageLookupByLibrary.simpleMessage("كُتبي"),
         "name": MessageLookupByLibrary.simpleMessage("الاسم"),
+        "name_error": MessageLookupByLibrary.simpleMessage("يرجى كتابة اسمك"),
         "name_hint": MessageLookupByLibrary.simpleMessage("طه حسن"),
         "onboarding_sub_title1": MessageLookupByLibrary.simpleMessage(
             "اكتشف، اقرأ، واستمتع بمجموعة واسعة من الكتب الإلكترونية."),
@@ -57,6 +60,8 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("طرق تسجيل دخول أخرى"),
         "paid_ebooks": MessageLookupByLibrary.simpleMessage("الكتب المدفوعَة"),
         "password": MessageLookupByLibrary.simpleMessage("الرقم السري"),
+        "password_error":
+            MessageLookupByLibrary.simpleMessage("يرجى كتابة الرقم السري"),
         "password_hint": MessageLookupByLibrary.simpleMessage("********"),
         "recent_searches":
             MessageLookupByLibrary.simpleMessage("آخر ما تم البحث عليه"),
