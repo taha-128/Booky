@@ -1,7 +1,7 @@
 import 'package:books_app/core/di/dependency_injection.dart';
 import 'package:books_app/core/helpers/cache_helper.dart';
 import 'package:books_app/core/theme/app_images.dart';
-import 'package:books_app/features/app_bottom_sheet/ui/app_bottom_nav_bar.dart';
+import 'package:books_app/features/app_bottom_nav_bar/ui/app_bottom_nav_bar.dart';
 import 'package:books_app/features/auth/ui/auth_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';

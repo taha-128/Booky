@@ -24,22 +24,22 @@ class BottomNavBarCubit extends Cubit<BottomNavBarState> {
   }
 
   List<Widget> screens = [
-    const MyBooksScreen(),
-    const SearchScreen(),
     const HomeScreen(),
+    const SearchScreen(),
+    const MyBooksScreen(),
   ];
 
   List<BottomNavigationBarItem> items = [
     BottomNavigationBarItem(
-      label: 'My Books',
+      label: 'Home',
       activeIcon: SvgPicture.asset(
-        AppSvgs.book,
-        width: 38.w,
+        AppSvgs.www,
+        width: 50.w,
         color: AppColors.darkGrey,
       ),
       icon: SvgPicture.asset(
-        AppSvgs.book,
-        width: 38.w,
+        AppSvgs.www,
+        width: 50.w,
         color: AppColors.black40,
       ),
     ),
@@ -57,15 +57,15 @@ class BottomNavBarCubit extends Cubit<BottomNavBarState> {
       ),
     ),
     BottomNavigationBarItem(
-      label: 'Home',
+      label: 'My Books',
       activeIcon: SvgPicture.asset(
-        AppSvgs.www,
-        width: 50.w,
+        AppSvgs.book,
+        width: 38.w,
         color: AppColors.darkGrey,
       ),
       icon: SvgPicture.asset(
-        AppSvgs.www,
-        width: 50.w,
+        AppSvgs.book,
+        width: 38.w,
         color: AppColors.black40,
       ),
     ),
