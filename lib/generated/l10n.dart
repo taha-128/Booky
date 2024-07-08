@@ -409,6 +409,36 @@ class S {
       args: [],
     );
   }
+
+  /// `Enter your email`
+  String get email_error {
+    return Intl.message(
+      'Enter your email',
+      name: 'email_error',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your name`
+  String get name_error {
+    return Intl.message(
+      'Enter your name',
+      name: 'name_error',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your password`
+  String get password_error {
+    return Intl.message(
+      'Enter your password',
+      name: 'password_error',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

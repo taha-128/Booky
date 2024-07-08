@@ -39,10 +39,13 @@ class AuthCubit extends Cubit<AuthState> {
     if (registerFormKey.currentState!.validate()) {
       emit(RegisterLoading());
       try {
-        await auth.createUserWithEmailAndPassword(
+        UserCredential credential = await auth.createUserWithEmailAndPassword(
           email: loginEmailController.text,
           password: loginPasswordController.text,
         );
+
+        await credential.user?.updateDisplayName(nameController.text);
+
         emit(RegisterSuccess());
       } on FirebaseAuthException catch (e) {
         emit(RegisterFailure(errCode: e.code));

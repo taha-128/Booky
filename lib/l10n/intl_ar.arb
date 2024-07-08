@@ -34,5 +34,8 @@
     "invalid_email": "البريد الالكتروني غير صالح",
     "weak_password": "الرقم السري ضعيف",
     "email_already_in_use": "هذا البريد مُستخدم بالفعل",
-    "invalid_credential": "االرقم السري أو البريد غير صحيح"
+    "invalid_credential": "االرقم السري أو البريد غير صحيح",
+    "email_error":"يرجى كتابة البريد الالكتروني",
+    "name_error":"يرجى كتابة اسمك",
+    "password_error":"يرجى كتابة الرقم السري"
 }
