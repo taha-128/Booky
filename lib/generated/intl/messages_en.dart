@@ -26,14 +26,21 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("About The Book"),
         "app_name": MessageLookupByLibrary.simpleMessage("Booky"),
         "email": MessageLookupByLibrary.simpleMessage("Email address"),
+        "email_already_in_use":
+            MessageLookupByLibrary.simpleMessage("This email already in use"),
         "email_hint": MessageLookupByLibrary.simpleMessage("Your email"),
         "finish_button": MessageLookupByLibrary.simpleMessage("Join"),
         "free_ebooks": MessageLookupByLibrary.simpleMessage("Free ebooks"),
         "hi": MessageLookupByLibrary.simpleMessage("Hi"),
         "home_title":
             MessageLookupByLibrary.simpleMessage("What will you read today?"),
+        "invalid_credential": MessageLookupByLibrary.simpleMessage(
+            "The email or password are incorrect"),
+        "invalid_email": MessageLookupByLibrary.simpleMessage("Invalid email"),
         "login": MessageLookupByLibrary.simpleMessage("Login"),
         "my_books": MessageLookupByLibrary.simpleMessage("My Books"),
+        "name": MessageLookupByLibrary.simpleMessage("Name"),
+        "name_hint": MessageLookupByLibrary.simpleMessage("Taha Hassan"),
         "onboarding_sub_title1": MessageLookupByLibrary.simpleMessage(
             "Discover, read, and enjoy a vast collection of eBooks."),
         "onboarding_sub_title2": MessageLookupByLibrary.simpleMessage(
@@ -48,6 +55,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Start Your Reading Journey Now"),
         "other_sign_in_options":
             MessageLookupByLibrary.simpleMessage("Other sign in options"),
+        "paid_ebooks": MessageLookupByLibrary.simpleMessage("Paid ebooks"),
         "password": MessageLookupByLibrary.simpleMessage("Password"),
         "password_hint": MessageLookupByLibrary.simpleMessage("********"),
         "recent_searches":
@@ -57,6 +65,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "see_all": MessageLookupByLibrary.simpleMessage("See All"),
         "skip": MessageLookupByLibrary.simpleMessage("Skip"),
         "submit_button": MessageLookupByLibrary.simpleMessage("Login"),
+        "there_is_error":
+            MessageLookupByLibrary.simpleMessage("There is an error"),
+        "user_not_found":
+            MessageLookupByLibrary.simpleMessage("User not found"),
+        "weak_password": MessageLookupByLibrary.simpleMessage("Weak password"),
+        "wrong_password":
+            MessageLookupByLibrary.simpleMessage("ًWrong password"),
         "your_books": MessageLookupByLibrary.simpleMessage("Your Books")
       };
 }

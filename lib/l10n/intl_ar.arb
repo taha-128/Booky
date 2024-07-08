@@ -1,6 +1,5 @@
 {
     "app_name": "Booky",
-    
     "onboarding_title1": "مرحباً بك في عالم القراءة",
     "onboarding_sub_title1": "اكتشف، اقرأ، واستمتع بمجموعة واسعة من الكتب الإلكترونية.",
     "onboarding_title2": "ابحث عن كتبك المفضلة بسهولة",
@@ -10,26 +9,30 @@
     "submit_button": "تسجيل الدخول",
     "skip": "تخطي",
     "finish_button": "انضم إلينا",
-
-    "login":"تسجيل الدخول",
-    "register":"انشاء حساب",
-    "email":"البريد الالكتروني",
-    "email_hint":"بريدك الالكتروني",
-    "password":"الرقم السري",
-    "password_hint":"********",
-    "other_sign_in_options":"طرق تسجيل دخول أخرى",
-
-    "hi":"مرحبًا",
-    "home_title":"ماذا سوف تقرأ اليوم؟",
-    "your_books":"كُتبك",
-    "see_all":"اعرض الكل",
-
-    "search":"ابحث",
-    "recent_searches":"آخر ما تم البحث عليه",
-    "free_ebooks":"الكتب المجانيّة",
-    "paid-ebooks":"الكتب المدفوعَة",
-
-    "my_books":"كُتبي",
-
-    "about_the_book":"وصف الكتاب"
+    "login": "تسجيل الدخول",
+    "register": "انشاء حساب",
+    "name": "الاسم",
+    "name_hint": "طه حسن",
+    "email": "البريد الالكتروني",
+    "email_hint": "بريدك الالكتروني",
+    "password": "الرقم السري",
+    "password_hint": "********",
+    "other_sign_in_options": "طرق تسجيل دخول أخرى",
+    "hi": "مرحبًا",
+    "home_title": "ماذا سوف تقرأ اليوم؟",
+    "your_books": "كُتبك",
+    "see_all": "اعرض الكل",
+    "search": "ابحث",
+    "recent_searches": "آخر ما تم البحث عليه",
+    "free_ebooks": "الكتب المجانيّة",
+    "paid_ebooks": "الكتب المدفوعَة",
+    "my_books": "كُتبي",
+    "about_the_book": "وصف الكتاب",
+    "there_is_error": "هناك خطأ ما",
+    "user_not_found": "لا يوجد مستخدم بهذه البيانات",
+    "wrong_password": "الرقم السري غير صحيح",
+    "invalid_email": "البريد الالكتروني غير صالح",
+    "weak_password": "الرقم السري ضعيف",
+    "email_already_in_use": "هذا البريد مُستخدم بالفعل",
+    "invalid_credential": "االرقم السري أو البريد غير صحيح"
 }

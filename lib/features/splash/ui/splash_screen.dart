@@ -19,10 +19,12 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
     Future.delayed(
       const Duration(seconds: 2),
       () {
-        Navigator.push(
+        SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+        Navigator.pushReplacement(
           context,
           PageRouteBuilder(
             transitionsBuilder:
@@ -63,8 +65,6 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    SystemChrome.setEnabledSystemUIMode(SystemUiMode.leanBack);
-
     return Scaffold(
       body: Center(
         child: Image.asset(AppImages.logo),
