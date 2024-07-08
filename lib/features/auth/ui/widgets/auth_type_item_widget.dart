@@ -6,6 +6,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../core/theme/app_styles.dart';
 import '../../logic/auth_type_bar_cubit/auth_type_bar_cubit.dart';
+import '../auth_screen.dart';
 
 class AuthTypeItem extends StatelessWidget {
   const AuthTypeItem({super.key, required this.title, this.color});

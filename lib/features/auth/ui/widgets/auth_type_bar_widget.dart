@@ -5,6 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../core/theme/app_colors.dart';
+import '../auth_screen.dart';
 import 'auth_type_bar_buttons.dart';
 import 'auth_type_item_widget.dart';
 
@@ -13,6 +14,22 @@ class AuthTypeBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    double getLeftSpace() {
+      if (Localizations.localeOf(context).languageCode == 'en') {
+        if (context.read<AuthTypeBarCubit>().authType == AuthType.register) {
+          return context.screenWidth / 2 - 28.w;
+        } else {
+          return 0;
+        }
+      } else {
+        if (context.read<AuthTypeBarCubit>().authType == AuthType.register) {
+          return 0;
+        } else {
+          return context.screenWidth / 2 - 28.w;
+        }
+      }
+    }
+
     return Container(
       padding: EdgeInsets.symmetric(horizontal: 4.w),
       width: context.screenWidth,
@@ -29,10 +46,7 @@ class AuthTypeBar extends StatelessWidget {
                 duration: const Duration(milliseconds: 250),
                 top: 4.h,
                 bottom: 4.h,
-                left: context.read<AuthTypeBarCubit>().authType ==
-                        AuthType.register
-                    ? context.screenWidth / 2 - 28.w
-                    : 0,
+                left: getLeftSpace(),
                 child: const AuthTypeItem(title: '', color: AppColors.white),
               ),
               const Positioned.fill(child: AuthTypeBarButtons()),
