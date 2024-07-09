@@ -1,9 +1,13 @@
 import 'package:books_app/core/helpers/extensions/screen_details.dart';
+
+
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../core/app_constants.dart';
 
 import 'hello_widget.dart';
+import 'home_center_section.dart';
 
 class HomeScreenBody extends StatelessWidget {
   const HomeScreenBody({super.key});
@@ -11,16 +15,15 @@ class HomeScreenBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(
-        horizontal: AppConstants.horizontalSpace,
-        vertical: AppConstants.verticalSpace,
-      ),
+      margin: AppConstants.getScreenMargin(context),
       width: context.screenWidth,
       height: context.screenHeight,
-      child: const Column(
+      child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          HomeScreenHelloWidget(),
+          const HomeScreenHelloWidget(),
+          SizedBox(height: 30.h),
+          const HomeScreenCenterSection(),
         ],
       ),
     );

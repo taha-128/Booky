@@ -1,3 +1,5 @@
+import 'package:books_app/core/helpers/extensions/screen_details.dart';
+import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class AppConstants {
@@ -6,4 +8,12 @@ class AppConstants {
 
   static final horizontalSpace = 22.w;
   static final verticalSpace = 50.h;
+
+  static EdgeInsets getScreenMargin(BuildContext context) {
+    return EdgeInsets.only(
+      top: AppConstants.verticalSpace,
+      right: context.isArabic ? AppConstants.horizontalSpace : 12.w,
+      left: context.isArabic ? 12.w : AppConstants.horizontalSpace,
+    );
+  }
 }
