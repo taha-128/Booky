@@ -15,7 +15,7 @@ class AuthTypeBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     double getLeftSpace() {
-      if (Localizations.localeOf(context).languageCode == 'en') {
+      if (!context.isArabic) {
         if (context.read<AuthTypeBarCubit>().authType == AuthType.register) {
           return context.screenWidth / 2 - 28.w;
         } else {

@@ -1,12 +1,12 @@
 import 'package:books_app/core/di/dependency_injection.dart';
 import 'package:books_app/core/helpers/cache_helper.dart';
 import 'package:books_app/core/theme/app_images.dart';
+import 'package:books_app/features/app_bottom_nav_bar/ui/app_bottom_nav_bar.dart';
 import 'package:books_app/features/auth/ui/auth_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import '../../home/ui/home_screen.dart';
 import '../../onboarding/ui/onboarding_screen.dart';
 
 class SplashScreen extends StatefulWidget {
@@ -47,7 +47,7 @@ class _SplashScreenState extends State<SplashScreen> {
               Animation<double> secondaryAnimation,
             ) {
               if (getIt.get<FirebaseAuth>().currentUser != null) {
-                return const HomeScreen();
+                return const AppBottomNavBar();
               } else {
                 if (getIt.get<CacheHelper>().isFirstOpen()) {
                   return const OnboardingScreen();

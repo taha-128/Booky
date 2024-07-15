@@ -24,18 +24,15 @@ class AuthBlocConsumer extends StatelessWidget {
           floatingSnackBar(
             backgroundColor: Colors.red,
             message: authErrorHandler(
-              context,
               code: state.errCode,
               type: AuthType.login,
             ),
             context: context,
           );
         } else if (state is RegisterFailure) {
-
           floatingSnackBar(
             backgroundColor: Colors.red,
             message: authErrorHandler(
-              context,
               code: state.errCode,
               type: AuthType.register,
             ),
