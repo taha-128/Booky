@@ -3,7 +3,7 @@ import 'package:books_app/core/networking/api/api_keys.dart';
 class BookInfoModel {
   final String title, publishedDate, thumbnail;
   final String? description;
-  final List<String> authors;
+  final List? authors;
   final int pageCount;
 
   BookInfoModel({
@@ -20,7 +20,7 @@ class BookInfoModel {
       title: json[ApiKeys.title],
       publishedDate: json[ApiKeys.publishedDate],
       thumbnail: json[ApiKeys.imageLinks][ApiKeys.thumbnail],
-      authors: json[ApiKeys.authors],
+      authors: json[ApiKeys.authors] ,
       pageCount: json[ApiKeys.pageCount],
     );
   }

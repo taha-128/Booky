@@ -16,4 +16,14 @@ class AppConstants {
       left: context.isArabic ? 12.w : AppConstants.horizontalSpace,
     );
   }
+
+  static const freeEbooks = 'free-ebooks';
+
+  static const booksTopics = [
+    'flutter',
+    'arabic',
+    'english',
+    'football',
+    'sports',
+  ];
 }

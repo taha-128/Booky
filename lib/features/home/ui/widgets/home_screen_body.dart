@@ -1,6 +1,5 @@
 import 'package:books_app/core/helpers/extensions/screen_details.dart';
 
-
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 

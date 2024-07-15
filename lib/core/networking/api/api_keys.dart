@@ -20,6 +20,9 @@ class ApiKeys {
   static const pdf = 'pdf';
   static const accessInfo = 'accessInfo';
   static const downloadLink = 'downloadLink';
+
+  //* Another Api Keys
+  static const items = 'items';
 }
 
 class QueryParameters {

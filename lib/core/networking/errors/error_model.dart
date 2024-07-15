@@ -3,7 +3,7 @@ import 'package:books_app/core/networking/api/api_keys.dart';
 class ErrorModel {
   final int code;
   final String message;
-  final List<String> errors;
+  final List errors;
 
   ErrorModel({required this.code, required this.message, required this.errors});
 
