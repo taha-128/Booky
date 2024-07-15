@@ -6,7 +6,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../../../core/theme/app_colors.dart';
 import '../../../../core/theme/app_styles.dart';
 import '../../../../generated/l10n.dart';
-import '../../logic/cubit/home_cubit.dart';
+import '../../logic/home_cubit/home_cubit.dart';
 
 class HomeScreenHelloWidget extends StatelessWidget {
   const HomeScreenHelloWidget({super.key});

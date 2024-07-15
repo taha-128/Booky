@@ -4,10 +4,10 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
 
 import '../../theme/app_colors.dart';
-import '../../theme/app_images.dart';
 
 class BookImageWidget extends StatelessWidget {
-  const BookImageWidget({super.key});
+  const BookImageWidget({super.key, required this.imageLink});
+  final String imageLink;
 
   @override
   Widget build(BuildContext context) {
@@ -28,9 +28,9 @@ class BookImageWidget extends StatelessWidget {
         ),
         child: ClipRRect(
           borderRadius: BorderRadius.circular(10),
-          child: Image.asset(
-            AppImages.book,
-            fit: BoxFit.cover,
+          child: Image.network(
+            imageLink,
+            fit: BoxFit.fill,
           ),
         ),
       ),

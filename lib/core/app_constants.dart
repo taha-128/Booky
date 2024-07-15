@@ -21,7 +21,6 @@ class AppConstants {
 
   static const booksTopics = [
     'flutter',
-    'arabic',
     'english',
     'football',
     'sports',

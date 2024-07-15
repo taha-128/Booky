@@ -1,3 +1,4 @@
+import 'package:books_app/core/models/book_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -5,7 +6,8 @@ import '../../theme/app_styles.dart';
 import 'book_image_widget.dart';
 
 class BookWidget extends StatelessWidget {
-  const BookWidget({super.key});
+  const BookWidget({super.key, required this.book});
+  final BookModel book;
 
   @override
   Widget build(BuildContext context) {
@@ -14,10 +16,10 @@ class BookWidget extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
-          const BookImageWidget(),
+          BookImageWidget(imageLink: book.info.thumbnail),
           SizedBox(height: 4.h),
           Text(
-            "Little Blue Truck's Halloween",
+            book.info.title,
             textAlign: TextAlign.center,
             style: AppStyles.style12,
             maxLines: 2,
