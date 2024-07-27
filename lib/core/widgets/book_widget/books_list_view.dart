@@ -7,9 +7,16 @@ import '../../models/book_model.dart';
 import 'book_widget.dart';
 
 class BooksListView extends StatelessWidget {
-  const BooksListView({super.key, this.showLabel = true, required this.books});
+  const BooksListView({
+    super.key,
+    this.showLabel = true,
+    required this.books,
+    this.label,
+  });
+
   final bool showLabel;
   final List<BookModel> books;
+  final String? label;
 
   @override
   Widget build(BuildContext context) {
@@ -18,8 +25,8 @@ class BooksListView extends StatelessWidget {
         if (showLabel)
           Column(
             children: [
-              const BooksListViewLabel(),
-              SizedBox(height: 10.h),
+              BooksListViewLabel(label: label ?? ''),
+              SizedBox(height: 12.h),
             ],
           ),
         SizedBox(

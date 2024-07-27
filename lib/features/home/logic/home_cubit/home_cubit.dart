@@ -16,13 +16,14 @@ class HomeCubit extends Cubit<HomeState> {
   List<BookModel> homeBooks = [];
 
   String getHelloLabel() {
-    return '${S.current.hi} ${FirebaseAuth.instance.currentUser!.displayName!}';
+    return '${S.current.hi} ${FirebaseAuth.instance.currentUser?.displayName ?? ''}';
   }
 
   Future<void> getHomeBooks() async {
     emit(BooksLoading());
     final response = await BooksHelper.getBooks(
       title: AppConstants.booksTopics[Random().nextInt(3)],
+      filter: AppConstants.freeEbooks,
       maxResults: 6,
     );
     response.fold(

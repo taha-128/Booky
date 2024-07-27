@@ -7,6 +7,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../core/widgets/book_widget/books_list_view.dart';
+import '../../../../generated/l10n.dart';
 
 class HomeScreenCenterSection extends StatelessWidget {
   const HomeScreenCenterSection({super.key});
@@ -40,8 +41,9 @@ class HomeScreenCenterSection extends StatelessWidget {
         ),
         SizedBox(height: 35.h),
         //* Do it after creating my_books screen
-        const BooksListView(
-          books: [],
+        BooksListView(
+          label: S.of(context).your_books,
+          books: const [],
         ),
       ],
     );

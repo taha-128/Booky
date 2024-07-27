@@ -13,6 +13,11 @@ class AppStyles {
     fontSize: 14.sp,
   );
 
+  static final style16Cairo = GoogleFonts.cairo(
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w700,
+  );
+
   static final style16 = GoogleFonts.inter(
     fontSize: 16.sp,
     fontWeight: FontWeight.w600,
@@ -20,7 +25,7 @@ class AppStyles {
 
   static final style18 = GoogleFonts.inter(
     fontSize: 18.sp,
-    fontWeight: FontWeight.bold,
+    fontWeight: FontWeight.w600,
   );
 
   static final style20 = GoogleFonts.poppins(

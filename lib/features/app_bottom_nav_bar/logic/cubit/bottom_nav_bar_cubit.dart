@@ -46,12 +46,12 @@ class BottomNavBarCubit extends Cubit<BottomNavBarState> {
     BottomNavigationBarItem(
       label: 'Search',
       activeIcon: SvgPicture.asset(
-        AppSvgs.search,
+        AppSvgs.searchBold,
         width: 28.w,
         color: AppColors.darkGrey,
       ),
       icon: SvgPicture.asset(
-        AppSvgs.search,
+        AppSvgs.searchBold,
         width: 28.w,
         color: AppColors.black40,
       ),

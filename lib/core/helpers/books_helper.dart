@@ -1,4 +1,3 @@
-import 'package:books_app/core/app_constants.dart';
 import 'package:books_app/core/di/dependency_injection.dart';
 import 'package:books_app/core/networking/api/dio_consumer.dart';
 import 'package:books_app/core/networking/errors/dio_exception_handler.dart';
@@ -11,6 +10,7 @@ import '../networking/errors/error_model.dart';
 class BooksHelper {
   static Future<Either<ErrorModel, List<BookModel>>> getBooks({
     required String title,
+    required String filter,
     int maxResults = 10,
   }) async {
     try {
@@ -18,7 +18,7 @@ class BooksHelper {
         ApiKeys.baseUrl,
         queryParameters: {
           QueryParameters.title: title,
-          QueryParameters.filter: AppConstants.freeEbooks,
+          QueryParameters.filter: filter,
           QueryParameters.maxResults: maxResults,
         },
       );

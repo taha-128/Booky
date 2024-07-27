@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:zoom_tap_animation/zoom_tap_animation.dart';
@@ -8,14 +7,15 @@ import '../../theme/app_colors.dart';
 import '../../theme/app_styles.dart';
 
 class BooksListViewLabel extends StatelessWidget {
-  const BooksListViewLabel({super.key});
+  const BooksListViewLabel({super.key, required this.label});
+  final String label;
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
         Text(
-          S.of(context).your_books,
+          label,
           style: AppStyles.style18,
         ),
         const Spacer(),

@@ -17,6 +17,8 @@ class AppSvgs {
 
   static const search = 'assets/svgs/search.svg';
 
+  static const searchBold = 'assets/svgs/search_bold.svg';
+
   static const share = 'assets/svgs/share.svg';
 
   static const star = 'assets/svgs/star.svg';

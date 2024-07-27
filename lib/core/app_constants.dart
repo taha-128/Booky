@@ -18,6 +18,7 @@ class AppConstants {
   }
 
   static const freeEbooks = 'free-ebooks';
+  static const paidEbooks = 'paid-ebooks';
 
   static const booksTopics = [
     'flutter',
