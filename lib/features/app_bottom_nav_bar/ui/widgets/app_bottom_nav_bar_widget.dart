@@ -11,6 +11,7 @@ class AppBottomNavBarWidget extends StatelessWidget {
     return BlocBuilder<BottomNavBarCubit, BottomNavBarState>(
       builder: (context, state) {
         return Scaffold(
+          resizeToAvoidBottomInset: false,
           bottomNavigationBar: BottomNavigationBar(
             showSelectedLabels: false,
             showUnselectedLabels: false,

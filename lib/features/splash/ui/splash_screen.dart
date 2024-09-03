@@ -52,7 +52,8 @@ class _SplashScreenState extends State<SplashScreen> {
                 if (getIt.get<CacheHelper>().isFirstOpen()) {
                   return const OnboardingScreen();
                 } else {
-                  return const AuthScreen();
+                  // return const AuthScreen();
+                  return const AppBottomNavBar();
                 }
               }
             },

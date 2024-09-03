@@ -1,5 +1,7 @@
 import 'package:books_app/core/helpers/extensions/screen_details.dart';
+import 'package:books_app/features/search/logic/search_bar_cubit/search_bar_cubit.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -21,13 +23,13 @@ class SearchBarWidget extends StatelessWidget {
         color: AppColors.lighterGrey,
       ),
       child: TextFormField(
-        controller: TextEditingController(),
+        controller: context.read<SearchBarCubit>().searchController,
         decoration: InputDecoration(
           contentPadding: EdgeInsets.symmetric(vertical: 8.h),
           hintText: S.current.search,
           hintStyle: AppStyles.style16Cairo,
           prefixIcon: Padding(
-            padding: EdgeInsets.symmetric(vertical: 8.h),
+            padding: EdgeInsets.symmetric(vertical: 12.h),
             child: SvgPicture.asset(
               AppSvgs.search,
               color: AppColors.lightGrey,

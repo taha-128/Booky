@@ -1,11 +1,9 @@
 import 'package:books_app/core/helpers/extensions/app_navigator.dart';
 import 'package:books_app/core/helpers/firebase_auth_error_code_handle.dart';
 import 'package:books_app/features/auth/ui/auth_screen.dart';
-import 'package:books_app/features/home/ui/home_screen.dart';
 import 'package:floating_snackbar/floating_snackbar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-// import 'package:floating_snackbar/floatingSnackBar.dart';
 import '../../../app_bottom_nav_bar/ui/app_bottom_nav_bar.dart';
 import '../../logic/auth_cubit/auth_cubit.dart';
 

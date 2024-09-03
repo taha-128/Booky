@@ -15,7 +15,7 @@ class AppStyles {
 
   static final style16Cairo = GoogleFonts.cairo(
     fontSize: 16.sp,
-    fontWeight: FontWeight.w700,
+    fontWeight: FontWeight.w600,
   );
 
   static final style16 = GoogleFonts.inter(
